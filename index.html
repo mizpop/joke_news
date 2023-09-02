@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src = "jquery.inview.js"></script>
+        <link href = "news.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div id = "header">
+            <a class = "header_menu" href = "index.html">TOP</a>
+            <a class = "header_menu">menu2</a>
+            <a class = "header_menu">menu3</a>
+            <div id = "dropdown_menu">
+                <div id = "menu_icon">
+                    <div id = "dropdown_menu_bar1" class = "dropdown_menu_bar"></div>
+                    <div id = "dropdown_menu_bar2" class = "dropdown_menu_bar"></div>
+                    <div id = "dropdown_menu_bar3" class = "dropdown_menu_bar"></div>
+                </div>
+                <div id = "menu_item_list">
+                    <a href="#">11111111</a>
+                    <a href="#">22222222</a>
+                    <a href="#">33333333</a>
+                </div>
+            </div>
+        </div>
+        <div id = "contents">
+            <div id = "top_title_mask">
+                <h1 id = "top_title">HOME</h1>
+            </div>
+            <div id = "page">
+                <!-- 内容はここ -->
+                <h2 class = "section_title">最近のニュース</h2>
+                <div id = "top_news_list">
+                    <a class = "top_news_item" href = "page/page1.html">
+                        <img src = "https://m.media-amazon.com/images/I/61VMiOboy-L.jpg" class = "top_news_item_img">
+                        <div class = "top_news_item_text">カントリーマアム無料化、来月10日から</div>
+                    </a>
+                </div>                
+            </div>
+        </div>
+        <script src="news.js"></script>
+    </body>
+</html>
